@@ -13,7 +13,7 @@ $config = [
     			[
     				'class' => 'yii\log\FileTarget',
     				'levels' => ['info', 'trace', 'warning', 'error'],
-    				'logFile' => '@app/../logs/frontend/battleofballs.log',
+    				'logFile' => '@app/../logs/frontend/forfun.log',
     				// 'logVars' => [],
     				// 'categories' => [],
     			],
