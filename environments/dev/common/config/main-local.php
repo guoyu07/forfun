@@ -3,7 +3,7 @@ return [
 		'components' => [ 
 				'db' => [ 
 						'class' => 'yii\db\Connection',
-						'dsn' => 'mysql:host=10.36.253.127;port=6184;dbname=bainuo_ktv',
+						'dsn' => 'mysql:host=10.36.253.127;port=6184;dbname=forfun',
 						'username' => 'uQkITdi6184',
 						'password' => 'P1PiDX7eZWdyuWfO1',
 						'charset' => 'utf8' 
@@ -19,6 +19,9 @@ return [
 				'urlManager' => [ 
 						'enablePrettyUrl' => true,
 						'showScriptName' => false 
-				] 
+				], 
+				'session' => [
+						'class' => 'yii\web\DbSession',
+				],
 		] 
 ];
